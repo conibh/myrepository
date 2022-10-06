@@ -4,3 +4,7 @@ body {
 h1 {
   color: #136388;
 }
+p {
+  color: #ffe8e8;
+  background-color: #136388;
+}
