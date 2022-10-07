@@ -1,3 +1,13 @@
+#hero {
+  height: 500px;
+  width: 300px;
+  background: url("images/panouparcare.png");
+}
+#logo {
+  height: 100px;
+  width: 100px;
+  background: url("images/logo.png");
+}
 nav.navbar {
   color: #136388;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
