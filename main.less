@@ -3,6 +3,13 @@
 @accentcolor: rgb(255, 232, 232);
 @mainfont: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 @images: "images/";
+@grid-breakpoints: {
+	xs: 0;
+	sm: 576px;
+	md: 768px;
+	lg: 992px;
+	xl: 1200px;
+}; 
 
 #hero {
     height: 500px;
@@ -11,8 +18,8 @@
 }
 
 #logo {
-    height: 100px;
     width: 100px;
+    height: 100px;
     background: url("@{images}logo.png");
 }
 
@@ -34,4 +41,11 @@ h1 {
 p {
     color: @accentcolor;
     background-color: @primarycolor;
+}
+
+[class*="col"] {
+    padding: 1rem;
+    background-color: @primarycolor;
+    border: 2px solid white;
+    color: wheat;
 }

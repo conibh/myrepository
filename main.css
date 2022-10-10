@@ -4,8 +4,8 @@
   background: url("images/panouparcare.png");
 }
 #logo {
-  height: 100px;
   width: 100px;
+  height: 100px;
   background: url("images/logo.png");
 }
 nav.navbar {
@@ -22,4 +22,10 @@ h1 {
 p {
   color: #ffe8e8;
   background-color: #136388;
+}
+[class*="col"] {
+  padding: 1rem;
+  background-color: #136388;
+  border: 2px solid white;
+  color: wheat;
 }
