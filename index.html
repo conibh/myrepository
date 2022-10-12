@@ -8,21 +8,131 @@
   <!-- CSS only -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   </head>
-    <body>
-        <div id="logo"></div>
-        <h1>Hello you!</h1>
-        <p> Trying to learn less heheh</p>
+  <body>
+      <!--Nav bar -->
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link disabled">Disabled</a>
+              </div>
+            </div>
+          </div>
+      </nav>
+    </header>
+      <!--Jumbotron-->
+    <main class="my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <img src="https://images.unsplash.com/photo-1535979863199-3c77338429a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1430&q=80" 
+                   alt="" 
+                   class="img-fluid"
+                   width="546px"
+                   height="322px">  
+          </div>
+          <div class="col-md-4">
+            <h1 class="mt-5">Tagline</h1>
+            <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo minus nesciunt illum hic neque a ipsam veritatis doloremque. Ducimus fugit quasi iure obcaecati officia ab laborum eum. Non, cumque possimus?</p>
+            <button type="button" class="btn btn-primary mt-3">Find out more</button>
+            </div>
+          </div>
+          <div class="row my-5">
+            <div class="col">
+              <div class="bg-secondary text-white my-5 py-3 card text-center">
+                <div class="card-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptatibus placeat, quas dignissimos pariatur ab, iste accusamus odit animi ducimus veritatis quidem distinctio dolore, accusantium magni eligendi tempora sapiente! Neque voluptatum, eius saepe nam alias nihil deserunt nostrum repellendus tenetur, nesciunt tempora minima ullam ducimus, rerum corporis perspiciatis libero earum!
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row m-4">
+          <div class="col">
+            <div class="card-group">
+              <div class="card">
+                <img src="https://images.unsplash.com/photo-1515859005217-8a1f08870f59?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1410&q=80" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="https://images.unsplash.com/photo-1597714026720-8f74c62310ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="https://images.unsplash.com/photo-1498307833015-e7b400441eb8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-<div class="container-sm">
-<div class="row">
-      <div class="col">Col1</div>
-      <div class="col">Col2</div>
-      <div class="col">Col3</div>
-</div>
-</div>
-
-
+      <div class="container">
+        <div class="row ">
+            <div class="col-md-6 col-md-offset-3">
+              <div class="well well-sm">
+                <form class="form-horizontal" action="" method="post">
+                <fieldset>
+                  <legend class="text-center">Contact us</legend>
+          
+                  <!-- Name input-->
+                  <div class="form-group my-2">
+                    <label class="col-md-3 control-label" for="name">Name</label>
+                    <div class="col-md-9">
+                      <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+                    </div>
+                  </div>
+          
+                  <!-- Email input-->
+                  <div class="form-group my-2">
+                    <label class="col-md-3 control-label" for="email">Your E-mail</label>
+                    <div class="col-md-9">
+                      <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+                    </div>
+                  </div>
+          
+                  <!-- Message body -->
+                  <div class="form-group">
+                    <label class="col-md-3 control-label" for="message">Your message</label>
+                    <div class="col-md-9">
+                      <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+                    </div>
+                  </div>
+          
+                  <!-- Form actions -->
+                  <div class="form-group">
+                    <div class="col-md-12 text-right my-2">
+                      <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                    </div>
+                  </div>
+                </fieldset>
+                </form>
+              </div>
+            </div>
+        </div>
+      </div>
+    </main>
      <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    </body>
+  </body>
 </html> 
